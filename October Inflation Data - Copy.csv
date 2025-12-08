@@ -1,0 +1,75 @@
+﻿,,Weight,"Annual 
+inflation","Monthly 
+inflation"
+category family,All Items,100,12.5,1.8
+main category 1,FOOD AND NON-ALCOHOLIC BEVERAGES,35.9,1.5,1.2
+sub category 1.1,Food,34.5,1.2,1.3
+sub item 1.1,Bread and cereals,4.6,4.8,0.4
+sub item 1.1,Meat,10,-3.2,0.2
+sub item 1.1,Fish and seafood,2.4,5.4,-0.3
+sub item 1.1,"Milk, cheese and eggs",4.5,1.9,1.6
+sub item 1.1,Oils and fats,3.2,5.2,-0.1
+sub item 1.1,Fruit,2,36.4,-7
+sub item 1.1,Vegetables,5.2,-10.6,12.1
+sub item 1.1,"Suger ,jam,honey,chocolate and confectionery",2,2.3,0.1
+sub item 1.1,Other Food products,0.6,3.2,0.3
+sub category 1.2,Non-Alcoholic Beverages,1.4,7.6,0.3
+sub item 1.2,"Coffee,tea and cocoa",1.1,5.5,0.2
+sub item 1.2,"Mineral waters,soft drinks,fruit and vegetable juices",0.4,12.7,0.5
+main category  2,ALCOHOLIC BEVERAGES & TOBACCO ,4.6,26,0.5
+sub item 2,Alcoholic beverages,0,24.9,0
+sub item 2,Tobacco,4.6,26,0.5
+main category 3,CLOTHING AND FOOTWEAR,4.7,15.7,0.9
+sub category 3.1,Clothing,3.6,16.2,0.7
+sub item 3.1,Clothing materials,0.1,19.4,2
+sub item 3.1,Garments,3.2,16,0.6
+sub item 3.1,Other clothes and accessories,0.1,17.6,-0.1
+sub item 3.1,"Cleaning,repair and hire of clothing",0.2,17.4,2.6
+sub category 3.2,Footwear,1,13.7,1.5
+sub item 3.2,Shoes and other Footwear,1,13.5,1.4
+sub item 3.2,Repair and hire of Footwear,0,25.4,4.3
+main category 4,"HOUSING,WATER,ELECTRICITY,GAS & OTHER FUELS",18,27.1,9.3
+sub item 4,Actual rentals for housing,1.1,13.6,0.7
+sub item 4,Imputed rentals for housing,9.9,42.4,17.5
+sub item 4,Maintenance and repair of the dwelling,0.8,15.4,0.3
+sub item 4,Water supply and miscellaneous services relating to the dwelling,1.7,3.9,0.7
+sub item 4,"Electricity, gas and other fuels",4.5,13.3,0.2
+main category  5,"FURNISHINGS, HOUSEHOLD'S EQUIPMENT AND MAINTENANCE",4.1,12.4,0.7
+sub item 5,"Furniture, furnishings, carpets and other floor coverings",0.3,12.2,0.9
+sub item 5,Household Textiles,0.2,14.3,0.7
+sub item 5,Household appliances,0.6,12.6,0.3
+sub item 5,"Glassware, tableware and household utensils",0.1,14.6,0.6
+sub item 5,Tools and equipment for house and garden,0.2,17.4,0.5
+sub item 5,Goods and services for routine household maintenance,2.7,12,0.7
+main category 6,HEALTH,9,28.4,0.2
+sub item 6,"Medical products, appliances and equipment",5.4,36.4,0
+sub item 6,Out-patient services,2,12.7,0.5
+sub item 6,Hospital services,1.6,15.6,0.6
+main category 7,TRANSPORT,6.1,26,0.1
+sub item 7,Purchase of vehicles,0.7,19.7,1.2
+sub item 7,Operation of personal transport equipment,1.6,34,0.1
+sub item 7,Transport services,3.7,22.8,0
+main category 8,COMMUNICATIONS,2.3,11.9,0
+sub item 8,Postal services,0,26.8,0
+sub item 8,Telephone and telefax services,0.1,10.6,0
+sub item 8,Telephone and fax service,2.2,12,0
+main category 9,RECREATION AND CULTURE,2.1,15.3,0
+sub item 9,"Audio,visual,photographic, information processing equipment",0.1,8.4,0.4
+sub item 9,"Other recreational items and equipment, gardens and pets",0.1,13.2,0.2
+sub item 9,Recreational items and equipment,0.1,38.4,0.1
+sub item 9,"Newspapers, books and stationery",0.9,15.5,0.4
+sub item 9,Package holidays,0.9,12.8,-0.7
+main category 10,EDUCATION,4.4,11.2,0
+sub item 10,Pre- primary and primary education,2.3,12.2,0
+sub item 10,Secondary education,1.3,7.5,0
+sub item 10,Post-Secondary Non- Tertiary education,0,5,0
+sub item 10,Tertiary education,0.7,12.2,0
+sub item 10,Unspecified level of education,0,29.6,0
+main category 11,RESTAURANTS AND HOTELS,4.3,12.5,0.4
+sub item 11,Catering services,4.2,12.4,0.4
+sub item 11,Accommodation services,0.1,19.2,-0.9
+main category 12,MISCELLANEOUS GOODS AND SERVICES,4.5,11,0.7
+sub item 12,Personal care,2.6,12.2,0.4
+sub item 12,Personal effects,0.4,23.7,3.4
+sub item 12,Insurance,0.6,0,0
+sub item 12,Other services,0.8,4.1,0.8

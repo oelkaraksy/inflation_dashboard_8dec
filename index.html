@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inflation Dashboard</title>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<!--  plugin datalabels -->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+   <h1>Inflation Dashboard</h1>
+
+    <p class="muted">Real-time breakdown of Annual and Monthly Urban Headline Inflation.</p>
+  </header>
+
+  <main class="container">
+    <div class="top-row">
+  
+  <section id="flashcards" class="summary-col"></section>
+
+  <section class="card pie-col">
+    <h2>CPI Component Weights Overview</h2>
+    <div class="chart-wrap">
+      <canvas id="weightsPieChart"></canvas>
+    </div>
+  </section>
+
+</div>
+
+
+    <!-- Category Cards -->
+    <section>
+      <h2>Inflation Rates by Main Category</h2>
+
+      <div id="category-cards" class="cards-grid"></div>
+    </section>
+
+    <!-- Annual Line -->
+    <section class="card">
+      <h2>Annual Inflation Rate (Year-over-Year)</h2>
+      <div class="controls">
+        <label>Time range (months): <input id="annual-range" type="range" min="6" max="130" value="36" /></label>
+        <span id="annual-range-value"></span>
+      </div>
+      <div class="chart-wrap"><canvas id="annualLineChart"></canvas></div>
+    </section>
+
+    <!-- Monthly Line -->
+    <section class="card">
+      <h2>Monthly Inflation Rate (Month-over-Month)</h2>
+      <div class="controls">
+        <label>Time range (months): <input id="monthly-range" type="range" min="6" max="130" value="36" /></label>
+        <span id="monthly-range-value"></span>
+      </div>
+      <div class="chart-wrap"><canvas id="monthlyLineChart"></canvas></div>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
