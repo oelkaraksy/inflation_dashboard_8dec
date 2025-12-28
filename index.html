@@ -75,33 +75,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-  <script>
-document.getElementById("downloadPDF").addEventListener("click", async () => {
+<script>
+document.getElementById("exportFull").addEventListener("click", async () => {
 
   const { jsPDF } = window.jspdf;
 
-  // Capture the WHOLE PAGE
-  const element = document.body;
+  // 1️⃣ Turn on report mode (forces subitems to show)
+  document.body.classList.add("report-mode");
 
-  // Higher scale = sharper image
-  const canvas = await html2canvas(element, { scale: 2 });
+  // wait for layout to update
+  await new Promise(r => setTimeout(r, 300));
 
-  const imgData = canvas.toDataURL("image/png");
+  // 2️⃣ Capture at high resolution
+  const canvas = await html2canvas(document.body, { scale: 3 });
 
-  // Create PDF sized to the canvas
+  // 3️⃣ Turn report mode off again
+  document.body.classList.remove("report-mode");
+
+  const img = canvas.toDataURL("image/png");
+
   const pdf = new jsPDF({
     orientation: "landscape",
     unit: "px",
     format: [canvas.width, canvas.height]
   });
 
-  pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
-  pdf.save("inflation_dashboard.pdf");
+  pdf.addImage(img, "PNG", 0, 0, canvas.width, canvas.height);
+  pdf.save("inflation_dashboard_full.pdf");
 });
 </script>
 
 
 </body>
 </html>
+
 
 
