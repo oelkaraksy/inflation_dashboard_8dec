@@ -211,3 +211,29 @@ body{
   background-color: #1e3a8a; 
   transform: translateY(0);
 }
+
+/* ============================
+   REPORT MODE (for exporting)
+   ============================ */
+body.report-mode * {
+  transition: none !important;
+}
+
+/* Always show hover sub-items when exporting */
+body.report-mode .subitems {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  max-height: none !important;
+}
+
+/* Improve sharpness of charts */
+body.report-mode canvas {
+  image-rendering: crisp-edges;
+}
+
+/* Optional: ensure cards don't shrink */
+body.report-mode .category-card {
+  min-height: auto;
+}
+
